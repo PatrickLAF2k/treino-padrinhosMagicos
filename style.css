@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  background-color: #181818;
+}
+
+header {
+  display: flex;
+  width: 99vw;
+  margin: 0 auto;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  gap: 60%;
+  background-color: #111111;
+  margin-bottom: 50px;
+}
+header img {
+  width: 10%;
+}
+header div {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+header div .acessar {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 5px 25px;
+  background-color: #DF0712;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+header div .entrar {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 5px 25px;
+  background-color: #DF0712;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  background-color: #181818;
+  border: solid 1px #FFFCFC;
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.logoPrincipal {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 30px;
+}
+.logoPrincipal img {
+  width: 8%;
+}
+.logoPrincipal div h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+.logoPrincipal div h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 50px;
+}
+.catalogo div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: white;
+  gap: 10px;
+}
+.catalogo div img {
+  width: 100%;
+}
+.catalogo div h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  width: 70%;
+  font-weight: 300;
+}
+.catalogo div p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #FFFFFF;
+  width: 80%;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  width: 99vw;
+  margin: 0 auto;
+  height: 8vh;
+  background-color: #111111;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
